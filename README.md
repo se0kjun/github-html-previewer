@@ -10,7 +10,7 @@ You have to clone or fork to preview HTML documents in Github. In the web, you c
 
 CLICK PREVIEW BUTTON
 
-![](https://raw.githubusercontent.com/se0kjun/github-html-previewer/master/howtouse.gif)
+![](https://raw.githubusercontent.com/se0kjun/github-html-previewer/master/example/howtouse.gif)
 
 ##Reference
 
