@@ -11,7 +11,10 @@
 
 	previewComp.setAttributeNode(previewCompClass);
 	previewComp.setAttributeNode(previewCompId);
-	fileActions.appendChild(previewComp);
+	if (fileActions !== null)
+		fileActions.appendChild(previewComp);
+	else
+		return;
 
 	previewComp.addEventListener('click', function(e) {
 		var sourceContent = document.querySelectorAll('.js-file-line');

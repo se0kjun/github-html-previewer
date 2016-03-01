@@ -15,3 +15,9 @@ chrome.runtime.onMessage.addListener(function(message){
         });
     });
 });
+
+// Github uses HTML5's pushState for page transitions.
+// So the content script is forced to execute using webNavigation.
+chrome.webNavigation.onHistoryStateUpdated.addListener(function(details) {
+    chrome.tabs.executeScript(null,{file:"js/contentscript.js"});
+});

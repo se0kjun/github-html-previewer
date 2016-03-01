@@ -61,16 +61,10 @@ var STYLE_TAG = [
 
 var parser;
 if (typeof DOMParser !== 'undefined') {
-	console.log('browser domparser');
 	parser = new DOMParser();
 } else {
 	console.log('use only browser');
 }
-// else {
-// 	console.log('xmldom parser');
-// 	var DOMParser = require('xmldom').DOMParser;
-// 	parser = new DOMParser();
-// }
 
 module.exports = function(htmlStr, htmlUrl) {
 	var parseTags = parser.parseFromString(htmlStr, "text/html");
