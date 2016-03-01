@@ -1,0 +1,10 @@
+{
+    "name": {
+	"message": "github-html-preview",
+	"description": "This is the long name of the app in Chrome's Webstore"
+    },
+    "description": {
+	"message": "You can preview any HTML documents in Github",
+	"description": "This is the description of the app that must declared in manifest.json"
+    }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "github-html-previewer",
+  "version": "1.0.0",
+  "description": "HTML documents in Github can preview using chrome extension.",
+  "main": "index.js",
+  "dependencies": {
+    "github-url-converter": "^1.0.0",
+    "jquery": "^2.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/se0kjun/github-html-previewer.git"
+  },
+  "keywords": [
+    "html",
+    "previewer",
+    "preview"
+  ],
+  "author": "Seokjun Hong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/se0kjun/github-html-previewer/issues"
+  },
+  "homepage": "https://github.com/se0kjun/github-html-previewer#readme"
+}
