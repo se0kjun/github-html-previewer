@@ -1,0 +1,12 @@
+@keyframes blink-anim {
+	from { background: #ddd; }
+	to { background: rgba(255, 0, 0, .3); }
+}
+
+.blink {
+	animation-duration: .4s;
+	animation-name: blink-anim;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: ease;
+}

@@ -2,7 +2,6 @@
   "name": "github-html-previewer",
   "version": "1.0.0",
   "description": "HTML documents in Github can preview using chrome extension.",
-  "main": "index.js",
   "dependencies": {
     "github-url-converter": "^1.0.0",
     "jquery": "^2.2.1"

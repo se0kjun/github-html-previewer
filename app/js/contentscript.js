@@ -4,7 +4,11 @@
 	var fileActions = document.querySelector('.file-actions > .btn-group');
 	var previewComp = document.createElement('button');
 	var previewCompClass = document.createAttribute('class');
-	previewCompClass.value = 'btn btn-sm';
+	if (document.URL.substring(document.URL.lastIndexOf('.') + 1) === 'html') {
+		previewCompClass.value = 'btn btn-sm blink';
+	} else {
+		previewCompClass.value = 'btn btn-sm';
+	}
 	var previewCompId = document.createAttribute('id');
 	previewCompId.value = 'preview_comp';
 	previewComp.innerText = 'Preview';
